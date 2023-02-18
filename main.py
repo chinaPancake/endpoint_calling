@@ -9,6 +9,5 @@ def get_function():
     else:
         print(f'Status code fail with: {response.status_code}')
 
-get_function()
 
 
