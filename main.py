@@ -1,7 +1,7 @@
 import requests
 import endpoints
 
-def get_function(id:str):
+def get_pet(id:str):
     url = (f'{endpoints.drivers}{id}')
     response = requests.get(url = url)
     if response.status_code == 200:
@@ -10,5 +10,5 @@ def get_function(id:str):
     else:
         print(f'Status code fail with: {response.status_code}')
 
-get_function(id='1')
+get_pet(id='1')
 
