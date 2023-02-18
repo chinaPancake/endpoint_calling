@@ -1,4 +1,4 @@
-url = "https://gate.dataloop.ai/api/v1"
+url = "https://petstore.swagger.io/v2/"
 
-drivers = f"{url}/drivers"
+drivers = f"{url}pet/"
 
